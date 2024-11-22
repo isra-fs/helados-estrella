@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3266 821">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #e7224a;
+      }
+
+      .st2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="-2" y="-51" width="3272.7" height="1080.4"/>
+    </clipPath>
+  </defs>
+  <g class="st2">
+    <path class="st1" d="M3470.5,1395.4v-471.4h-.2c-62.3-93.7-140.8-182-230.2-269.2-154.2-150.2-361-224.5-587-211.8-221.9,12.4-444.3-31.6-626.6-158.6C1648.7,21.2,1188.7-57.8,760.2,68.3,376.2,181.4,77.3,446.7-60.1,796.1c-4.6,11.8-12.9,30.8-25.1,53.4-31.5,24-62.6,48.8-93.2,74.6h-.4v471.4h3649.2Z"/>
+    <rect class="st0" x="-.4" y="-5768.5" width="3265.9" height="6818.7"/>
+  </g>
+</svg>
