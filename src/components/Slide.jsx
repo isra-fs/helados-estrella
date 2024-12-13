@@ -45,7 +45,7 @@ export default function Slide() {
   return (
     <>
       <Swiper
-        effect="fade"
+
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -56,7 +56,7 @@ export default function Slide() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         {images.map((image, index) => (
