@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
 import "swiper/swiper-bundle.css";
-import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import AnimatedImage from "./AnimatedImage";
 import "../App.css";
 
@@ -13,10 +13,6 @@ export default function Slide() {
       mobile: 'https://via.placeholder.com/768x400/000000/FFFFFF',
       desktop: '/helados-estrella/Slide1.svg',
     },
-    // {
-    //   mobile: 'https://via.placeholder.com/768x400/33FF57/FFFFFF',
-    //   desktop: '/helados-estrella/Slide2.jpg',
-    // },
     {
       mobile: 'https://via.placeholder.com/768x400/3357FF/FFFFFF',
       desktop: '/helados-estrella/Slide3.jpg',
