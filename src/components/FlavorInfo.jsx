@@ -44,7 +44,7 @@ const FlavorInfo = () => {
             <img
               src={item.imgSrc}
               alt={item.alt}
-              className="object-cover rounded-full mb-4"
+              className="object-cover rounded-full mb-2"
             />
             <p className="font-mulish text-custom-gray text-center">
               {item.text}
@@ -52,8 +52,8 @@ const FlavorInfo = () => {
           </div>
         ))}
       </div>
-      <AnimatedImage alt="Imagen 1" className="absolute right-0 w-64 z-50" />
-      <AnimatedImage alt="Imagen 1" className="absolute left-0 w-64 z-50" />
+      <AnimatedImage alt="Imagen 1" className="absolute right-0 w-32 z-50" />
+      <AnimatedImage alt="Imagen 1" className="absolute left-0 w-32 z-50" />
       <div className="flex justify-center items-center mt-16">
         <OrderButton text="Conoce nuestro proceso" />
       </div>

@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
 import "swiper/swiper-bundle.css";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 import AnimatedImage from "./AnimatedImage";
 import "../App.css";
 
@@ -10,20 +10,16 @@ export default function Slide() {
 
   const images = [
     {
-      mobile: "https://via.placeholder.com/768x400/000000/FFFFFF",
-      desktop: "https://via.placeholder.com/1920x1080/000000/FFFFFF",
+      mobile: 'https://via.placeholder.com/768x400/000000/FFFFFF',
+      desktop: '/helados-estrella/Slide1.png',
     },
     {
-      mobile: "https://via.placeholder.com/768x400/33FF57/FFFFFF",
-      desktop: "https://via.placeholder.com/1920x1080/33FF57/FFFFFF",
+      mobile: 'https://via.placeholder.com/768x400/33FF57/FFFFFF',
+      desktop: '/helados-estrella/Slide2.jpg',
     },
     {
-      mobile: "https://via.placeholder.com/768x400/3357FF/FFFFFF",
-      desktop: "https://via.placeholder.com/1920x1080/3357FF/FFFFFF",
-    },
-    {
-      mobile: "https://via.placeholder.com/768x400/FFFF33/333333",
-      desktop: "https://via.placeholder.com/1920x1080/FFFF33/333333",
+      mobile: 'https://via.placeholder.com/768x400/3357FF/FFFFFF',
+      desktop: '/helados-estrella/Slide3.jpg',
     },
   ];
 
@@ -49,17 +45,18 @@ export default function Slide() {
   return (
     <>
       <Swiper
+        effect="fade"
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 10000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
         className="mySwiper"
       >
         {images.map((image, index) => (
@@ -78,7 +75,7 @@ export default function Slide() {
       </Swiper>
       <AnimatedImage
         alt="Imagen 1"
-        className="absolute left-0 bottom-8 w-64 z-50"
+        className="absolute left-0 bottom-16 w-32 z-50"
       />
     </>
   );

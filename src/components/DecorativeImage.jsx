@@ -34,7 +34,7 @@ export default function AnimatedImage({ src, alt, className, style }) {
       <img
         src={src}
         alt={alt}
-        className={`w-full object-cover transition-all duration-1000 ease-in-out ${
+        className={`w-[150px] object-cover transition-all duration-1000 ease-in-out ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
         style={style}

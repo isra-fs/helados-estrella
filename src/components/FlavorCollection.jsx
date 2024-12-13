@@ -24,10 +24,9 @@ const FlavorCollection = () => {
         <img
           src="flavor_info.jpg"
           alt="Colección de sabores"
-          className="object-contain h-auto max-h-[90%]"
+          className="object-contain h-auto"
         />
       </div>
-      <AnimatedImage alt="Imagen 1" className="absolute left-0 w-64 z-50" />
     </div>
   );
 };

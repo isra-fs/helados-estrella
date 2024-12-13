@@ -3,8 +3,8 @@ import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   const image = {
-    desktop: "/Footer-background.svg",
-    mobile: "/Footer-background.svg",
+    desktop: "/helados-estrella/Footer-background.svg",
+    mobile: "/helados-estrella/Footer-background.svg",
   };
 
   const socialLinks = [
@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="absolute inset-0 flex items-end justify-between px-4 text-white mb-4">
           <div className="flex-1 basis-[30%] flex justify-end mb-8">
             <img
-              src="/logo_n.svg"
+              src="/helados-estrella/logo_n.svg"
               alt="Logo"
               className="w-full h-auto max-w-[85%]"
             />

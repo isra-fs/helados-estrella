@@ -6,36 +6,36 @@ import Title from "./Title";
 const Products = () => {
   const images = [
     {
-      mobile: "https://via.placeholder.com/100x150/000000/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/000000/FFFFFF",
+      mobile: "/helados-estrella/fav1.jpg",
+      desktop: "/helados-estrella/fav1.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/33FF57/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/33FF57/FFFFFF",
+      mobile: "/helados-estrella/fav2.jpg",
+      desktop: "/helados-estrella/fav2.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/3357FF/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/3357FF/FFFFFF",
+      mobile: "/helados-estrella/fav3.jpg",
+      desktop: "/helados-estrella/fav3.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/FFFF33/333333",
-      desktop: "https://via.placeholder.com/200X250/FFFF33/333333",
+      mobile: "/helados-estrella/fav4.jpg",
+      desktop: "/helados-estrella/fav4.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/000000/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/000000/FFFFFF",
+      mobile: "/helados-estrella/fav5.jpg",
+      desktop: "/helados-estrella/fav5.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/33FF57/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/33FF57/FFFFFF",
+      mobile: "/helados-estrella/fav6.jpg",
+      desktop: "/helados-estrella/fav6.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/3357FF/FFFFFF",
-      desktop: "https://via.placeholder.com/200X250/3357FF/FFFFFF",
+      mobile: "/helados-estrella/fav7.jpg",
+      desktop: "/helados-estrella/fav7.jpg",
     },
     {
-      mobile: "https://via.placeholder.com/100x150/FFFF33/333333",
-      desktop: "https://via.placeholder.com/200X250/FFFF33/333333",
+      mobile: "/helados-estrella/fav8.jpg",
+      desktop: "/helados-estrella/fav8.jpg",
     },
   ];
 
@@ -52,7 +52,7 @@ const Products = () => {
             spaceBetween: 5,
           },
           500: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 5,
           },
           1024: {

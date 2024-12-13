@@ -1,10 +1,10 @@
 import Title from "./Title";
 const Ticker = () => {
   const images = [
-    "/sponsor_1.svg",
-    "/sponsor_2.svg",
-    "/sponsor_3.svg",
-    "/sponsor_4.svg",
+    "/helados-estrella/sponsor_1.svg",
+    "/helados-estrella/sponsor_2.svg",
+    "/helados-estrella/sponsor_3.svg",
+    "/helados-estrella/sponsor_4.svg",
   ];
 
   return (

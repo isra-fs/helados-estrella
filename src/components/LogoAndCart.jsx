@@ -12,7 +12,7 @@ const LogoAndCart = ({ toggleNav, cartButton }) => (
     {/* Logo (centrado en móvil) */}
     <div className="flex-1 flex justify-center">
       <img
-        src="/logo_n.svg"
+        src="/helados-estrella/logo_n.svg"
         alt="Logo de la empresa"
         className="h-auto max-h-16 w-full"
       />

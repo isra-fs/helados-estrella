@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 
 const AnimatedImage = ({ alt, className }) => {
   // Arreglo de imágenes dentro del componente
-  const imagesArray = ["/Limon.svg", "/Fresas.svg", "/Flor.svg", "/Coco.svg"];
+  const imagesArray = [
+    "/helados-estrella/Limon.svg",
+    "/helados-estrella/Fresas.svg",
+    "/helados-estrella/Flor.svg",
+    "/helados-estrella/Coco.svg",
+  ];
 
   // Elegir una imagen aleatoria del arreglo
   const [src, setSrc] = useState("");
