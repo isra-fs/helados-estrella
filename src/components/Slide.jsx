@@ -10,11 +10,11 @@ export default function Slide() {
 
   const images = [
     {
-      mobile: 'https://via.placeholder.com/768x400/000000/FFFFFF',
+      mobile: '/helados-estrella/slide_m1.jpg',
       desktop: '/helados-estrella/Slide1.svg',
     },
     {
-      mobile: 'https://via.placeholder.com/768x400/3357FF/FFFFFF',
+      mobile: '/helados-estrella/slide_m2.jpg',
       desktop: '/helados-estrella/Slide3.jpg',
     },
   ];

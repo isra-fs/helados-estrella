@@ -4,7 +4,7 @@ import SocialLinks from "./SocialLinks";
 const Footer = () => {
   const image = {
     desktop: "/helados-estrella/Footer-background.svg",
-    mobile: "/helados-estrella/Footer-background.svg",
+    mobile: "/helados-estrella/Footer-background_m.svg",
   };
 
   const socialLinks = [
@@ -33,7 +33,7 @@ const Footer = () => {
     <footer className="mt-32">
       <div className="relative">
         <picture>
-          <source srcSet={image.mobile} media="(max-width: 768px)" />
+          <source srcSet={image.mobile} media="(max-width: 999px)" />
           <img
             src={image.desktop}
             alt="Footer Background"
@@ -50,7 +50,7 @@ const Footer = () => {
             />
           </div>
 
-          <div className="flex-1 basis-[50%] flex justify-left ml-64">
+          <div className="flex-1 basis-[50%] flex justify-left ml-8">
             <FooterLinks links={footerLinks} />
           </div>
 

@@ -14,7 +14,7 @@ const NotFound = () => {
       <FlavorCollection />
       <FlavorInfo />
       <ImageCarousel />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
