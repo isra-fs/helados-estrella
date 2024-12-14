@@ -53,7 +53,7 @@ const FlavorInfo = () => {
         ))}
       </div>
       <AnimatedImage alt="Imagen 1" className="absolute right-0 w-32 z-50" />
-      <AnimatedImage alt="Imagen 1" className="absolute left-0 w-32 z-50" />
+      {/* <AnimatedImage alt="Imagen 1" className="absolute left-0 w-32 z-50" /> */}
       <div className="flex justify-center items-center mt-16">
         <OrderButton text="Conoce nuestro proceso" />
       </div>

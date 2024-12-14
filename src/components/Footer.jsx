@@ -53,11 +53,11 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="bg-custom-turquesa text-white py-4">
+      {/* <div className="bg-custom-turquesa text-white py-4">
         <p className="text-center font-mulish text-lg">
           Copyright 2024. Helados Estrella Todos los derechos reservados
         </p>
-      </div>
+      </div> */}
     </footer>
   );
 };

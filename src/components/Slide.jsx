@@ -69,10 +69,10 @@ export default function Slide() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <AnimatedImage
-        alt="Imagen 1"
-        className="absolute left-0 bottom-16 w-32 z-50"
-      />
+   {/* <AnimatedImage
+  alt="Imagen 1"
+  className="absolute left-0 bottom-16 sm:bottom-40 md:bottom-40 w-32 z-50"
+/> */}
     </>
   );
 }
