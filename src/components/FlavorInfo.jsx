@@ -1,6 +1,7 @@
 import { OrderButton } from "../components/Buttons";
 import Title from "./Title";
 import AnimatedImage from "./AnimatedImage";
+
 const FlavorInfo = () => {
   // Arreglo de los elementos con sus imágenes y subtítulos
   const items = [
@@ -39,7 +40,7 @@ const FlavorInfo = () => {
         {items.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center max-w-[170px] min-w-[170px]"
+            className="flex flex-col items-center text-center max-w-[170px] min-w-[170px] w-full sm:w-1/2 md:w-1/4 mb-8"
           >
             <img
               src={item.imgSrc}

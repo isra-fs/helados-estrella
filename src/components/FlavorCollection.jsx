@@ -1,5 +1,5 @@
 import { OrderButton } from "./Buttons";
-
+import AnimatedImage from "./AnimatedImage";
 const FlavorCollection = () => {
   return (
     <div className="w-full mt-32 flex flex-col-reverse md:flex-row">
@@ -28,6 +28,10 @@ const FlavorCollection = () => {
           className="object-contain h-auto w-[70%] md:w-[80%]"
         />
       </div>
+<AnimatedImage
+  alt="Imagen 1"
+  className="absolute right-0 sm:left-0 sm:bottom-16 md:right-0 w-32 z-50"
+/>
     </div>
   );
 };
