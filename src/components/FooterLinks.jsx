@@ -1,6 +1,6 @@
-const FooterLinks = ({ links }) => {
+const FooterLinks = ({ links, className }) => {
   return (
-    <ul className="space-y-2 text-center font-mulish max-w-[100%] text-xl">
+    <ul className={`flex flex-col space-y-2 ${className}`}>
       {links.map((link, index) => (
         <li key={index}>
           <a href={link.href} className="hover:underline">
