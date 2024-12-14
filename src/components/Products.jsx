@@ -66,8 +66,8 @@ const Products = () => {
         navigation={true}
         breakpoints={{
           300: {
-            slidesPerView: 3, // 3 elementos en móviles
-            spaceBetween: 5,
+            slidesPerView: 2, // 3 elementos en móviles
+            spaceBetween: 20,
           },
           500: {
             slidesPerView: 3, // 3 elementos en dispositivos de tamaño pequeño a mediano
@@ -78,8 +78,8 @@ const Products = () => {
             spaceBetween: 30,
           },
           1024: {
-            slidesPerView: 6, // 6 elementos en pantallas grandes
-            spaceBetween: 30,
+            slidesPerView: 5, // 6 elementos en pantallas grandes
+            spaceBetween: 20,
           },
         }}
         modules={[Navigation]}
